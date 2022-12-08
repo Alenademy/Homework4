@@ -1,7 +1,6 @@
 ﻿int[] array = GetBinaryArray(8);
 Console.WriteLine($"[{String.Join(",", array)}]");
 
-
 int[] GetBinaryArray(int size)
 {
     int[] result = new int  [size];
